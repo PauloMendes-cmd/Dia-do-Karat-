@@ -17,9 +17,6 @@
 html{scroll-behavior:smooth}
 body{font-family:'DM Sans',sans-serif;background:var(--off-white);color:var(--texto);font-size:16px;line-height:1.7;overflow-x:hidden}
 
-/* NAV */
-/* NAV */
-
 nav{
   background:rgba(12,10,8,.88);
   backdrop-filter:blur(12px);
@@ -418,10 +415,8 @@ nav{
     }
 }
 
-/* FAIXA */
 .faixa-banner{background:var(--vermelho-dojo);color:var(--areia-claro);text-align:center;padding:13px;font-size:11px;font-weight:500;letter-spacing:5px;text-transform:uppercase;overflow:hidden;white-space:nowrap}
 
-/* SECOES */
 .secao{max-width:1100px;margin:0 auto;padding:104px 48px}
 .secao-label{font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--vermelho);margin-bottom:14px;display:flex;align-items:center;gap:12px}
 .secao-label::before{content:'';display:inline-block;width:24px;height:1px;background:var(--vermelho)}
@@ -441,15 +436,8 @@ h2.titulo-secao{font-family:'Playfair Display',serif;font-size:clamp(36px,4vw,52
 .stat-num{font-family:'Playfair Display',serif;font-size:44px;font-weight:900;color:var(--areia);line-height:1;margin-bottom:8px}
 .stat-desc{font-size:13px;color:#666058;line-height:1.5}
 
-/* DIVISOR */
 .divisor{max-width:1100px;margin:0 auto;padding:0 48px}
 .divisor hr{border:none;border-top:1px solid #D8CEBA}
-
-/* GALERIA */
-
-/* =====================================
-   MUSEU DO KARATÊ
-===================================== */
 
 .galeria-bg{
     position:relative;
@@ -631,7 +619,6 @@ h2.titulo-secao{font-family:'Playfair Display',serif;font-size:clamp(36px,4vw,52
         0 0 35px rgba(200,169,110,.12);
 }
 
-/* TAG DE MUSEU */
 
 .galeria-overlay::before{
     content:"MUSEU";
@@ -657,8 +644,6 @@ h2.titulo-secao{font-family:'Playfair Display',serif;font-size:clamp(36px,4vw,52
 
     text-transform:uppercase;
 }
-
-/* RESPONSIVO */
 
 @media(max-width:900px){
 
